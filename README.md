@@ -79,6 +79,13 @@ cd ewm-das
 docker build -t covalent/light-client -f Dockerfile.lc .
 ```
 
+- Step7: Increase Buffer Size
+```bash
+sudo sysctl -w net.core.rmem_max=8388608
+sudo sysctl -w net.core.wmem_max=8388608
+```
+
+- # Step8: Increase Buffer Size
 - Input BURNER `Metamask Private Key` inside Qoutes (do not remove "")
 
 ```bash
