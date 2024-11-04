@@ -16,13 +16,13 @@ Storage : SSD or NVMe with at least 50GB of space
 ```
 
 ## Deployment 
-Step1: 
+- Step1: 
 ```bash
 wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.22.3.linux-amd64.tar.gz
 ```
 
-Step2: 
+- Step2: 
 ```bash
 echo "" >> ~/.bashrc
 echo 'export GOPATH=$HOME/go' >> ~/.bashrc
@@ -32,26 +32,26 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$GOBIN' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Step3: Install Kubo
+- Step3: Install Kubo
 ```bash
 wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
 tar -xvzf kubo_v0.30.0_linux-amd64.tar.gz
 ```
 
-Step4:
+- Step4:
 ```bash
 cd kubo
 sudo bash install.sh
 cd
 ```
 
-Step5: Git Covalent Repo
+- Step5: Git Covalent Repo
 ```bash
 git clone https://github.com/covalenthq/ewm-das
 cd ewm-das
 ```
 
-Step6: Docker Build
+- Step6: Docker Build
 ```bash
 docker build -t covalent/light-client -f Dockerfile.lc .
 ```
