@@ -99,5 +99,7 @@ docker logs -f light-client
 
 #### Submit Info and Wait 1 to 2 days ✅
 https://docs.google.com/forms/d/e/1FAIpQLSdjxT5NwXX7lBfb_Pdx5T3oWehnaOl__Mg9XnXCr0u-jRPY5w/viewform?usp=send_form
+Join Covalent Discord: https://discord.gg/JgvxnhnS 
 
-- Join our community https://discord.gg/UPSfxycf
+
+- Join my community https://discord.gg/UPSfxycf
