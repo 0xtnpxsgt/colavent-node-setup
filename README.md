@@ -1,6 +1,7 @@
 ## Colavent Node - Ultimate Guide 
 
-![image](https://github.com/user-attachments/assets/cc20fbe4-7b25-4960-8be8-b0150572368f)
+![image](https://github.com/user-attachments/assets/8ad78028-d32c-4137-a772-accd754923d5)
+
 
 ## Requirements
 
